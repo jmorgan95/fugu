@@ -1,0 +1,28 @@
+*{
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+}
+
+
+
+h1{
+	font-family: 'Impact';
+	font-size: 150px;
+	background-color: red;
+}
+
+h2{
+	background-color: yellow;
+	font-size: 120px;
+
+}
+
+p#Warning{
+	background-color: yellow;
+	color: red;
+	font-weight: 900;
+	align-items: 
+}
