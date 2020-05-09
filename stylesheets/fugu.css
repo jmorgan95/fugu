@@ -1,28 +1,49 @@
-*{
-	font-family: Helvetica;
-	text-align: center;
-	margin-bottom: 25px;
-	margin-top: 25px;
 
+body {
+  background: white;
+  max-width: 1500px;
+  margin: auto;
+  font-family:Oxygen;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
 }
-
-
 
 h1{
-	font-family: 'Impact';
-	font-size: 150px;
-	background-color: red;
+	text-align: center;
+	background: rgba(0,0,0,.4);
+	background-size: cover;
+	font-family:Permanent Marker;
+	font-size: 75px;
+	color: white;
+	padding: 45px 0 45px 0;
+	margin: 45px 0 20px 0;
 }
 
-h2{
-	background-color: yellow;
-	font-size: 120px;
-
+.header{
+	background-image: url("../Pics/Fugu1.jpg");
+	background-position: 50% 30%;
 }
 
 p#Warning{
 	background-color: yellow;
 	color: red;
 	font-weight: 900;
-	align-items: 
+}
+
+
+ul.nav{
+	text-align: center;
+	margin: 10px;
+	padding: 30px;
+}
+
+ul.nav li{
+	display: inline-block;
+	padding: 25px 25px 25px 25px;
+	width: 150px;
+	text-align: center;
+	border: 1px solid #555;
+
+
 }
