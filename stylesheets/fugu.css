@@ -28,28 +28,33 @@ img#alice{
 	object-fit: cover;
 	margin: 50px 0 0 0;
 	border: 10px solid #FFF;
-	border-radius: 100px
+	border-radius: 100px;
 }
 
 ul.nav{
 	text-align: center;
+	background: rgba(0,0,0,0.4);
+	margin: 10px;
 	padding: 10px;
-	background: rgba(0,0,0,0.5);
 }
 
 ul.nav li{
 	display: inline-block;
-	padding: 5px 25px 5px 25px;
-	margin: 0px 20px 0px 20px;
-	width: 150px;
 	text-align: center;
-	border: 1px solid white;
 }
 
-a{
+ul.nav li a{
+	display: inline-block;
 	color: white;
+	width: 300px;
 	text-decoration: none;
+	background-color: rgba(0,0,0,0);
+	padding: 10px 0px 10px 0px;
+	border: 1px solid white;
+	margin: 0px 5px 0px 5px;
 }
+
+
 
 p{
 	font-size: 70px;
