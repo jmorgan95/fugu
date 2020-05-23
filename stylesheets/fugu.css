@@ -73,3 +73,42 @@ p{
 .input{
 	margin: 50px;
 }
+
+
+
+h2{
+	margin: 5px 0px 15px 0px;
+}
+
+h3{
+	text-align: left;
+	font-size: 50px;
+	margin: 20px 150px 10px 150px;
+}
+
+
+div.recipe p{
+	text-align: left;
+	font-size: 15px;
+	margin: 10px 150px;
+}
+
+div.recipe ol{
+	text-align: left;
+	font-size: 15px;
+	margin: 0px 165px;
+	padding: 0px;
+}
+
+div.recipe ol li{
+	text-align: left;
+	font-size: 15px;
+	margin: 10px 0px;
+}
+
+div.sourcelink{
+	color: red;
+	text-align: left;
+	margin: 0 150px 0 150px;
+	font-size: 15px
+}
