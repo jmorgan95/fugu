@@ -1,42 +1,63 @@
+/* General */
 
 body {
   background: white;
-  max-width: 1600px;
+  max-width: 1400px;
   font-family:Oxygen;
   text-align: center;
-  margin: 0 auto;
-  max-width: 1400px;
   border-bottom: 5px dashed rgb(200,200,200);
-  padding: 0px 0px 50px 0px;
+  margin: auto;
 }
+
+h1{
+	font-family: Permanent Marker;
+	font-size: 75px;
+	margin: 10px 0px 0px 0px;
+}
+
+h2{
+	font-family: Oxygen;
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+	font-size: 30px;
+}
+
+h3{
+	text-align: left;
+	font-size: 20px;
+	margin: 50px 0px 0px 0px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+}
+
+p{
+	font-size: 50px;
+}
+
+
+
+/* Header */
 
 header{	
 	color: white;
 	background-image: url("../Pics/Fugu1.jpg");
 	background-size: cover;
-	background-position: center top;
+	background-position: 50% 35%;
+	text-align: center;
 }
 
-h1{
+h1.header{
 	font-family:Permanent Marker;
 	font-size: 75px;
 	padding: 5px 0 5px 0;
 	margin: 0;
-}
-
-img#alice{
-	height: 150px;
-	width: 150px;
-	object-fit: cover;
-	margin: 50px 0 0 0;
-	border: 10px solid #FFF;
-	border-radius: 100px;
+	background: rgba(0,0,0,0.6);
 }
 
 ul.nav{
 	text-align: center;
-	background: rgba(0,0,0,0.4);
-	margin: 10px;
+	background: rgba(0,0,0,0.6);
+	margin: 0px;
 	padding: 10px;
 }
 
@@ -58,33 +79,33 @@ ul.nav li a{
 
 ul.nav li a:hover {
 	background-color: green;
-}
-
-
-p{
-	font-size: 50px;
-	margin: 0 150px 0 150px;
-}
-
-.Dayplan{
-	margin-top: 30px;
-}
-
-.input{
-	margin: 50px;
+	color: yellow;
 }
 
 
 
-h2{
-	margin: 5px 0px 15px 0px;
+/* On page */
+
+div.recipes{
+	margin: 0px 50px 0px 50px;
 }
 
-h3{
+ul.recipelist{
 	text-align: left;
-	font-size: 50px;
-	margin: 20px 150px 10px 150px;
+	padding: 0px 0px 0px 15px;
+	list-style: none;
 }
+
+ul.recipelist li{
+	margin: 10px 0px;
+}
+
+div.recipes a{
+	text-decoration: none;
+}
+
+
+
 
 
 div.recipe p{
@@ -98,12 +119,6 @@ div.recipe ol{
 	font-size: 15px;
 	margin: 0px 165px;
 	padding: 0px;
-}
-
-div.recipe ol li{
-	text-align: left;
-	font-size: 15px;
-	margin: 10px 0px;
 }
 
 div.sourcelink{
