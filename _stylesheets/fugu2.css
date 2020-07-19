@@ -1,0 +1,369 @@
+ 
+
+/*Fugu Stylesheet*/
+/*__________________________________________________*/
+
+/*$middle-yellow: rgba(255, 233, 0, 1);
+$lincoln-green: rgba(42, 77, 20, 1);
+$ao-english: rgba(49, 123, 34, 1);
+$vivid-sky-blue: rgba(68, 204, 255, 1);
+$cornflower-blue: rgba(116, 148, 234, 1);*/
+
+html{
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+
+body {
+  font-family:Oxygen;
+  padding: 0;
+  margin: auto;
+  background-image: url("../_sitePics/Background_tile.jpg");
+  background-size: 600px;
+  background-repeat: repeat;
+  max-width: 1800px;
+}
+
+h1{
+	font-family: Permanent Marker;
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+h1#site-title{
+	font-size: 100px;
+}
+
+.page-title h1{
+	font-size: 75px;
+}
+
+h2{
+	font-size: 28px;
+	text-align: center;
+	margin: 0;
+}
+
+h3{
+	font-size: 28px;
+	margin: 0;
+	padding: 20px 0;
+	border-bottom: 2px solid grey;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	display: block;
+    list-style: none;
+    padding: 10px 0px 20px 10px;
+    margin: 0;
+}
+
+
+ol{
+    padding: 10px 0px 20px 10px;
+    margin: 0;
+
+}
+
+/*Index page
+__________________________________________________*/
+
+.logo-container{
+	background-color: rgba(255,255,255,0.9);
+	margin: 50px 50px 0px;
+	padding: 20px 20px 0px;
+	z-index: 1;
+}
+
+h1.header{
+	height: 100px;
+	font-size: 150px;
+}
+
+.logo{
+	background-color: white;
+	border: 10px solid rgba(255, 233, 0, 1);
+	height: 150px;
+	width: 150px;
+	margin: 10px auto;
+	z-index: 5;
+	position: relative;
+	border-radius: 500px;
+	padding: 0;
+	background-image: url("../_sitePics/Icon_Fugu.png");
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo-lines{
+	border-top: 5px solid rgba(42, 77, 20, 1);
+	border-bottom: 5px solid rgba(42, 77, 20, 1);
+	position: relative;
+	height: 30px;
+	top: -100px;
+	z-index: 3;
+}
+
+.flex-container{
+	display: flex;
+	background-color: rgba(255,255,255,0.9);
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-shrink: 1;
+	padding: 10px 10px 50px;
+	margin: 0px 50px 20px;
+}
+
+.flex-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-shrink: 1;
+	width: 800px;
+	padding: 0 auto;
+	margin: 0;
+}
+
+.icon-container{
+	padding: 35px 40px 20px;
+}
+
+.icon{
+	justify-content: center;
+	background-color: rgba(49, 123, 34, 1);
+	height:	250px;
+	width: 250px;
+	border-radius: 25px;
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.icon:hover{
+	opacity: 50%;
+}
+
+.icon-container p{
+	text-align: center;
+	font-size: 40px;
+	margin: 10px 10px 0px;
+	padding: 0;
+	border-width: 0;
+	font-family: Permanent Marker;
+}
+
+.icon.recipes{
+	background-image: url("../_sitePics/Icon_Recipe.png");
+}
+
+.icon.gallery{
+	background-image: url("../_sitePics/Icon_Gallery.png");
+}
+
+.icon.meallog{
+	background-image: url("../_sitePics/Icon_Log.png");
+}
+
+.icon.restaurants{
+	background-image: url("../_sitePics/Icon_Restaurant.png");
+}
+
+.icon a{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 250px;
+	width: 250px;
+ 	border-radius: 25px;
+	color: transparent;
+}
+
+.page-title{
+	margin:0 50px;
+	padding: 0;
+	background-color: rgba(255,255,255,0.9);
+}
+
+/*Nav bar
+__________________________________________________*/
+
+
+.header{
+	height: 175px;
+	margin: 0;
+}
+
+
+.logo a{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 130px;
+	width: 130px;
+	margin: 0;
+	color: transparent;
+}
+
+
+.navbar-container{
+	padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	flex-wrap: wrap;
+}
+
+.navbar-icon{
+	background-color: rgba(49, 123, 34, 1);
+	margin: 20px 20px;
+	flex: 0 0 150px;
+	border-radius: 20px;
+}
+
+.navbar-icon a{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+ 	border-radius: 25px;
+	color: transparent;
+	height: 150px;
+	width: 150px;
+}
+
+.navbar{
+	height: 150px;
+	background-size: 75%;
+	background-position: 50% 25%;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar.recipes{
+	background-image: url("../_sitePics/Icon_Recipe.png");
+}
+
+.navbar.gallery{
+	background-image: url("../_sitePics/Icon_Gallery.png");
+}
+
+.navbar.meallog{
+	background-image: url("../_sitePics/Icon_Log.png");
+}
+
+.navbar.restaurants{
+	background-image: url("../_sitePics/Icon_Restaurant.png");
+}
+
+.navbar-icon p{
+	text-align: center;
+	position: relative;
+	margin: 0;
+	color: white;
+	bottom: 30px;
+}
+
+.navbar-icon:hover{
+	opacity: 50%;
+}
+
+
+
+/*Recipe list
+__________________________________________________*/
+
+.flex-recipe{
+	margin: 0px 50px;
+	display: flex;
+	align-items: stretch;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.recipe-menu{
+	font-size: 30px;
+	flex: 0 0 300px;
+	padding: 20px;
+	border: 5px solid rgba(49, 123, 34, 1);
+	margin: 10px;
+}
+
+
+.recipe-list{
+	font-size: 30px;
+	width: 1200px;
+	padding: 20px 50px;
+	border: 5px solid rgba(49, 123, 34, 1);
+	flex: 1 1 1300px;
+	margin: 10px;
+}
+
+
+.recipe-container{
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+
+.flex-recipe a{
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+}
+
+.flex-recipe li{
+	padding: 0px 10px;
+	margin: 20px 0;
+}
+
+
+.flex-recipe li:hover{
+	background-color: rgba(255, 233, 0, 1);
+}
+
+
+/*Recipe page
+__________________________________________________*/
+
+.ingredients, .method, .source{
+	margin: 0 50px;
+	padding: 0 50px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.ingredients ul{
+	padding: 20px;
+}
+
+.ingredients li, .method li{
+	margin: 10px;
+}
+
+
+.ingredients li{
+	list-style: initial;
+}
+
+.method ol{
+	padding: 20px;
+}
+
+.source{
+	height: 200px;
+}
+
+.source p{
+	margin: 20px 0;
+}
