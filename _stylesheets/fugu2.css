@@ -35,13 +35,32 @@ h1{
 	margin: 0;
 }
 
+h2{
+	margin: 0 0 20px;
+}
 
+h3{
+	font-size: 28px;
+	margin: 0;
+}
+
+div{
+	margin: 5px;
+	padding: 5px;
+}
+
+ul{
+	display: block;
+    list-style: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+}
 
 /*Index page
 __________________________________________________*/
 
 .logo-container{
-	background-color: rgba(255,255,240,0.5);
+	background-color: rgba(255,255,240,0.75);
 	margin: 50px 50px 0px;
 	padding: 20px;
 	z-index: 1;
@@ -81,9 +100,9 @@ h1.header{
 
 .flex-container{
 	display: flex;
-	background-color: rgba(255,255,240,0.5);
+	background-color: rgba(255,255,240,0.75);
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	flex-shrink: 1;
 	padding: 10px 10px 50px;
 	margin: 0px 50px 20px;
@@ -152,4 +171,125 @@ h1.header{
 	width: 250px;
  	border-radius: 25px;
 	color: transparent;
+}
+
+
+
+/*Nav bar
+__________________________________________________*/
+
+.navbar-container{
+	padding: 0 100px;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	flex-wrap: wrap;
+	position: relative;
+	top: -50px;
+}
+
+.navbar-icon{
+	background-color: rgba(49, 123, 34, 1);
+	margin: 20px 75px;
+	flex: 0 0 100px;
+	border-radius: 20px;
+}
+
+.navbar-icon a{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+ 	border-radius: 25px;
+	color: transparent;
+	height: 100px;
+	width: 100px;
+}
+
+.navbar{
+	height: 100px;
+	width: 100px;
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar.recipes{
+	background-image: url("../_sitePics/Icon_Recipe.png");
+}
+
+.navbar.gallery{
+	background-image: url("../_sitePics/Icon_Gallery.png");
+}
+
+.navbar.meallog{
+	background-image: url("../_sitePics/Icon_Log.png");
+}
+
+.navbar.restaurants{
+	background-image: url("../_sitePics/Icon_Restaurant.png");
+}
+
+.navbar-icon p{
+	text-align: center;
+	position: relative;
+	margin: 0;
+	color: white;
+	bottom: 20px;
+}
+
+.navbar-icon:hover{
+	opacity: 50%;
+}
+
+
+
+/*Recipe page
+__________________________________________________*/
+
+.flex-recipe{
+	margin: 0px 50px;
+	display: flex;
+	align-items: stretch;
+	background-color: rgba(255,255,240,0.75);
+}
+
+.recipe-menu{
+	font-size: 30px;
+	flex: 0 0 300px;
+	padding: 20px;
+	border: 5px solid rgba(49, 123, 34, 1);
+}
+
+
+.recipe-list{
+	font-size: 30px;
+	width: 1200px;
+	padding: 20px 0px 20px 50px;
+	border: 5px solid rgba(49, 123, 34, 1);
+	flex: 1 1 1300px;
+}
+
+
+.recipe-container{
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+
+.flex-recipe a{
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.flex-recipe li{
+	padding: 10px;
+	margin: 20px 0;
+}
+
+
+.flex-recipe li:hover{
+	background-color: rgba(255, 233, 0, 1);
 }
