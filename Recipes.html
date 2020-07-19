@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fugu</title>
-  <link rel='stylesheet' type='text/css' href='./stylesheets/fugu.css'>
+  <title>Fugu | Recipes</title>
+  <link rel='stylesheet' type='text/css' href='./_stylesheets/fugu2.css'>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
@@ -10,52 +10,102 @@
 <body>
 
 <header>
-  <h1 class="header">Fugu</h1>
-  <ul class = 'nav'>
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./Weeklymenu.html">Weekly Menus</a></li>
-    <li><a href="./Recipes.html">Recipes</a></li>
-  </ul>
+	<div class="logo-container">
+		<div class="header">
+			<div class="logo">
+				<a href="/Users/Morgan%20Jake/Documents/GitHub/fugu/index.html">Home</a>
+			</div>
+			<div class="logo-lines">
+			</div>
+		</div>
+		<div class="navbar-container">
+			<div class="navbar-icon">
+				<div class="navbar recipes">
+					<a href="/Users/Morgan%20Jake/Documents/GitHub/fugu/Recipes.html">Recipes</a>
+					<p>Recipes</p>
+				</div>
+			</div>
+			<div class="navbar-icon">
+				<div class="navbar gallery">
+					<a href="/Users/Morgan%20Jake/Documents/GitHub/fugu/Gallery.html">Gallery</a>
+					<p>Gallery</p>
+				</div>	
+			</div>
+			<div class="navbar-icon">
+				<div class="navbar meallog">
+					<a href="/Users/Morgan%20Jake/Documents/GitHub/fugu/MealLog.html">Meal Log</a>
+					<p>Meal Log</p>
+				</div>					
+			</div>
+			<div class="navbar-icon">
+				<div class="navbar restaurants">
+					<a href="/Users/Morgan%20Jake/Documents/GitHub/fugu/Restaurants.html">Restaurants</a>
+					<p>Restaurants</p>
+				</div>	
+			</div>
+		</div>
+	</div>
 </header>
 
-<h1>Recipes</h1>
-
-<div class = recipes>
-
-<h3>Beef</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Beef-01-Shortrib.html">Slow Cooked Beef Short Ribs</a></li>
-	</ul>
-
-<h3>Pork</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Pork-01-Pork Tenderloins.html">Pork Tenderloin Tacos</a></li>
-	</ul>
-
-<h3>Chicken</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Chicken-01-Paella.html">Paella</a></li>
-		<li><a href="./Recipes/Chicken-02-Biryani.html">Biryani</a></li>
-	</ul>
-
-<h3>Fish</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Fish-03-Grilled Bream.html">Grilled Sea Bream</a></li>
-		<li><a href="./Recipes/Fish-02-Lobster Risotto.html">Lobster Risotto</a></li>
-		<li><a href="./Recipes/Fish-01-Thai Curry Sea Bass.html">Thai Curry Sea Bass</a></li>
-	</ul>
-
-<h3>Pasta</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Pasta-01-Arrabiata.html">Catrin's Arrabiata</a></li>
-	</ul>
-
-<h3>Sides</h3>
-	<ul class="recipelist">
-		<li><a href="./Recipes/Pasta-01-Arrabiata.html">Peanut Butter Soy Sauce Greenbeans</a></li>
-	</ul>
-
+<div class="page-title">
+	<h1>Recipes</h1>
 </div>
 
+<div class="flex-recipe">
+	<div class="recipe-menu">
+		<h2>Sections</h2>
+		<ul>
+			<li><a href=#>All</a></li>
+			<li><a href=#>Beef</a></li>
+			<li><a href=#>Chicken</a></li>
+			<li><a href=#>Pork</a></li>
+			<li><a href=#>Fish</a></li>
+			<li><a href=#>Pasta</a></li>
+			<li><a href=#>Sides</a></li>
+			<li><a href=#>Desserts</a></li>
+	</div>
+	<div class="recipe-list">
+		<h2>All</h2>
+		<div class="recipe-container">
+			<h3>Beef</h3>
+				<ul class="recipelist">
+					<li><a href="./01_Recipes/BEEF01_Shortrib.html">Slow Cooked Beef Short Ribs</a></li>
+				</ul>
+		</div>
+		<div class="recipe-container">
+			<h3>Pork</h3>
+				<ul class="recipelist">
+					<li><a href="./Recipes/Pork-01-Pork Tenderloins.html">Pork Tenderloin Tacos</a></li>
+				</ul>
+		</div>
+		<div class="recipe-container">
+			<h3>Chicken</h3>
+				<ul class="recipelist">
+					<li><a href="./01_Recipes/CHICK01_Paella.html">Paella</a></li>
+					<li><a href="./Recipes/Chicken-02-Biryani.html">Biryani</a></li>
+				</ul>
+		</div>
+		<div class="recipe-container">
+			<h3>Fish</h3>
+				<ul class="recipelist">
+					<li><a href="./Recipes/Fish-03-Grilled Bream.html">Grilled Sea Bream</a></li>
+					<li><a href="./Recipes/Fish-02-Lobster Risotto.html">Lobster Risotto</a></li>
+					<li><a href="./Recipes/Fish-01-Thai Curry Sea Bass.html">Thai Curry Sea Bass</a></li>
+				</ul>
+		</div>
+		<div class="recipe-container">
+			<h3>Pasta</h3>
+				<ul class="recipelist">
+					<li><a href="./Recipes/Pasta-01-Arrabiata.html">Catrin's Arrabiata</a></li>
+				</ul>
+		</div>
+		<div class="recipe-container">
+			<h3>Sides</h3>
+				<ul class="recipelist">
+					<li><a href="./Recipes/Pasta-01-Arrabiata.html">Peanut Butter Soy Sauce Greenbeans</a></li>
+				</ul>
+		</div>
+	</div>
+</div>
 
 </body>
