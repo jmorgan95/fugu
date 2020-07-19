@@ -23,7 +23,7 @@ body {
   padding: 0;
   margin: auto;
   background-image: url("../_sitePics/Background_tile.jpg");
-  background-size: 800px;
+  background-size: 600px;
   background-repeat: repeat;
   max-width: 1800px;
 }
@@ -35,40 +35,57 @@ h1{
 	margin: 0;
 }
 
+h1#site-title{
+	font-size: 100px;
+}
+
+.page-title h1{
+	font-size: 75px;
+}
+
 h2{
-	margin: 0 0 20px;
+	font-size: 28px;
+	text-align: center;
+	margin: 0;
 }
 
 h3{
 	font-size: 28px;
 	margin: 0;
+	padding: 20px 0;
+	border-bottom: 2px solid grey;
 }
 
 div{
-	margin: 5px;
-	padding: 5px;
+	margin: 0;
+	padding: 0;
 }
 
 ul{
 	display: block;
     list-style: none;
-    padding: 0px 0px 0px 10px;
+    padding: 10px 0px 20px 10px;
     margin: 0;
+}
+
+
+ol{
+    padding: 10px 0px 20px 10px;
+    margin: 0;
+
 }
 
 /*Index page
 __________________________________________________*/
 
 .logo-container{
-	background-color: rgba(255,255,240,0.75);
+	background-color: rgba(255,255,255,0.9);
 	margin: 50px 50px 0px;
-	padding: 20px;
+	padding: 20px 20px 0px;
 	z-index: 1;
 }
 
 h1.header{
-	position: relative;
-	top: -75px;
 	height: 100px;
 	font-size: 150px;
 }
@@ -82,7 +99,7 @@ h1.header{
 	z-index: 5;
 	position: relative;
 	border-radius: 500px;
-	padding: 10px;
+	padding: 0;
 	background-image: url("../_sitePics/Icon_Fugu.png");
 	background-size: 75%;
 	background-position: center;
@@ -90,8 +107,8 @@ h1.header{
 }
 
 .logo-lines{
-	border-top: 5px solid grey;
-	border-bottom: 5px solid grey;
+	border-top: 5px solid rgba(42, 77, 20, 1);
+	border-bottom: 5px solid rgba(42, 77, 20, 1);
 	position: relative;
 	height: 30px;
 	top: -100px;
@@ -100,7 +117,7 @@ h1.header{
 
 .flex-container{
 	display: flex;
-	background-color: rgba(255,255,240,0.75);
+	background-color: rgba(255,255,255,0.9);
 	flex-wrap: wrap;
 	justify-content: space-around;
 	flex-shrink: 1;
@@ -173,25 +190,45 @@ h1.header{
 	color: transparent;
 }
 
-
+.page-title{
+	margin:0 50px;
+	padding: 0;
+	background-color: rgba(255,255,255,0.9);
+}
 
 /*Nav bar
 __________________________________________________*/
 
+
+.header{
+	height: 175px;
+	margin: 0;
+}
+
+
+.logo a{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 130px;
+	width: 130px;
+	margin: 0;
+	color: transparent;
+}
+
+
 .navbar-container{
-	padding: 0 100px;
+	padding: 0 20px;
 	display: flex;
 	justify-content: center;
 	margin: 0;
 	flex-wrap: wrap;
-	position: relative;
-	top: -50px;
 }
 
 .navbar-icon{
 	background-color: rgba(49, 123, 34, 1);
-	margin: 20px 75px;
-	flex: 0 0 100px;
+	margin: 20px 20px;
+	flex: 0 0 150px;
 	border-radius: 20px;
 }
 
@@ -201,15 +238,14 @@ __________________________________________________*/
 	vertical-align: middle;
  	border-radius: 25px;
 	color: transparent;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 }
 
 .navbar{
-	height: 100px;
-	width: 100px;
+	height: 150px;
 	background-size: 75%;
-	background-position: center;
+	background-position: 50% 25%;
 	background-repeat: no-repeat;
 	padding: 0;
 	margin: 0;
@@ -236,7 +272,7 @@ __________________________________________________*/
 	position: relative;
 	margin: 0;
 	color: white;
-	bottom: 20px;
+	bottom: 30px;
 }
 
 .navbar-icon:hover{
@@ -245,14 +281,14 @@ __________________________________________________*/
 
 
 
-/*Recipe page
+/*Recipe list
 __________________________________________________*/
 
 .flex-recipe{
 	margin: 0px 50px;
 	display: flex;
 	align-items: stretch;
-	background-color: rgba(255,255,240,0.75);
+	background-color: rgba(255,255,255,0.9);
 }
 
 .recipe-menu{
@@ -260,20 +296,22 @@ __________________________________________________*/
 	flex: 0 0 300px;
 	padding: 20px;
 	border: 5px solid rgba(49, 123, 34, 1);
+	margin: 10px;
 }
 
 
 .recipe-list{
 	font-size: 30px;
 	width: 1200px;
-	padding: 20px 0px 20px 50px;
+	padding: 20px 50px;
 	border: 5px solid rgba(49, 123, 34, 1);
 	flex: 1 1 1300px;
+	margin: 10px;
 }
 
 
 .recipe-container{
-	margin: 0 0 30px;
+	margin: 0 0 10px;
 	padding: 0;
 }
 
@@ -282,14 +320,50 @@ __________________________________________________*/
 	font-size: 20px;
 	text-decoration: none;
 	display: block;
+	line-height: 40px;
 }
 
 .flex-recipe li{
-	padding: 10px;
+	padding: 0px 10px;
 	margin: 20px 0;
 }
 
 
 .flex-recipe li:hover{
 	background-color: rgba(255, 233, 0, 1);
+}
+
+
+/*Recipe page
+__________________________________________________*/
+
+.ingredients, .method, .source{
+	margin: 0 50px;
+	padding: 0 50px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.ingredients ul{
+	padding: 20px;
+}
+
+.ingredients li, .method li{
+	margin: 10px;
+}
+
+
+.ingredients li{
+	list-style: initial;
+}
+
+.method ol{
+	padding: 20px;
+}
+
+.source{
+	height: 200px;
+}
+
+.source p{
+	margin: 20px 0;
 }
