@@ -22,7 +22,7 @@ body {
   font-family:Oxygen;
   padding: 0;
   margin: auto;
-  background-image: url("./_sitePics/Background_tile.jpg");
+  background-image: url("/00_sitePics/Background_tile.jpg");
   background-size: 600px;
   background-repeat: repeat;
   max-width: 1800px;
@@ -100,7 +100,7 @@ h1.header{
 	position: relative;
 	border-radius: 500px;
 	padding: 0;
-	background-image: url("./_sitePics/Icon_Fugu.png");
+	background-image: url("/00_sitePics/Icon_Fugu.png");
 	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -165,19 +165,19 @@ h1.header{
 }
 
 .icon.recipes{
-	background-image: url("./_sitePics/Icon_Recipe.png");
+	background-image: url("/00_sitePics/Icon_Recipe.png");
 }
 
 .icon.gallery{
-	background-image: url("./_sitePics/Icon_Gallery.png");
+	background-image: url("/00_sitePics/Icon_Gallery.png");
 }
 
 .icon.meallog{
-	background-image: url("./_sitePics/Icon_Log.png");
+	background-image: url("/00_sitePics/Icon_Log.png");
 }
 
 .icon.restaurants{
-	background-image: url("./_sitePics/Icon_Restaurant.png");
+	background-image: url("/00_sitePics/Icon_Restaurant.png");
 }
 
 .icon a{
@@ -252,19 +252,19 @@ __________________________________________________*/
 }
 
 .navbar.recipes{
-	background-image: url("./_sitePics/Icon_Recipe.png");
+	background-image: url("/00_sitePics/Icon_Recipe.png");
 }
 
 .navbar.gallery{
-	background-image: url("./_sitePics/Icon_Gallery.png");
+	background-image: url("/00_sitePics/Icon_Gallery.png");
 }
 
 .navbar.meallog{
-	background-image: url("./_sitePics/Icon_Log.png");
+	background-image: url("/00_sitePics/Icon_Log.png");
 }
 
 .navbar.restaurants{
-	background-image: url("./_sitePics/Icon_Restaurant.png");
+	background-image: url("/00_sitePics/Icon_Restaurant.png");
 }
 
 .navbar-icon p{
