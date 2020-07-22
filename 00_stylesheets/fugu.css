@@ -1,13 +1,12 @@
 
-
-/*Fugu Stylesheet*/
-/*__________________________________________________*/
-
 /*$middle-yellow: rgba(255, 233, 0, 1);
 $lincoln-green: rgba(42, 77, 20, 1);
 $ao-english: rgba(49, 123, 34, 1);
 $vivid-sky-blue: rgba(68, 204, 255, 1);
 $cornflower-blue: rgba(116, 148, 234, 1);*/
+
+/*Fugu Stylesheet*/
+/*__________________________________________________*/
 
 html{
 	box-sizing: border-box;
@@ -21,44 +20,33 @@ html{
 body {
   font-family:Oxygen;
   padding: 0;
-  margin: auto;
-  background-image: url("/fugu/00_sitePics/Background_tile.jpg");
+  margin: 50px 50px;
+  background-image: url("../00_sitePics/Background_tile.jpg");
   background-size: 600px;
   background-repeat: repeat;
-  max-width: 1800px;
+  max-width: 95%;
 }
 
 h1{
 	font-family: Permanent Marker;
-	font-size: 100px;
+	font-size: 80px;
 	text-align: center;
 	margin: 0;
-}
-
-h1#site-title{
-	font-size: 100px;
-}
-
-.page-title h1{
-	font-size: 75px;
+	padding: 0;
 }
 
 h2{
-	font-size: 28px;
+	font-size: 36px;
 	text-align: center;
 	margin: 0;
+	padding: 0 0 50px;
 }
 
 h3{
 	font-size: 28px;
 	margin: 0;
-	padding: 20px 0;
-	border-bottom: 2px solid grey;
-}
-
-div{
-	margin: 0;
-	padding: 0;
+	border-bottom: 2px solid green;
+	padding: 0 0 10px;
 }
 
 ul{
@@ -68,26 +56,19 @@ ul{
     margin: 0;
 }
 
-
 ol{
     padding: 10px 0px 20px 10px;
     margin: 0;
-
 }
 
-/*Index page
-__________________________________________________*/
 
-.logo-container{
+/*header*/
+/*__________________________________________________*/
+
+header {
 	background-color: rgba(255,255,255,0.9);
-	margin: 50px 50px 0px;
-	padding: 20px 20px 0px;
-	z-index: 1;
-}
-
-h1.header{
-	height: 100px;
-	font-size: 150px;
+	padding: 25px 50px 0px;
+	height: 180px;
 }
 
 .logo{
@@ -100,111 +81,11 @@ h1.header{
 	position: relative;
 	border-radius: 500px;
 	padding: 0;
-	background-image: url("/fugu/00_sitePics/Icon_Fugu.png");
+	background-image: url("../00_sitePics/Icon_Fugu.png");
 	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
-.logo-lines{
-	border-top: 5px solid rgba(42, 77, 20, 1);
-	border-bottom: 5px solid rgba(42, 77, 20, 1);
-	position: relative;
-	height: 30px;
-	top: -100px;
-	z-index: 3;
-}
-
-.flex-container{
-	display: flex;
-	background-color: rgba(255,255,255,0.9);
-	flex-wrap: wrap;
-	justify-content: space-around;
-	flex-shrink: 1;
-	padding: 10px 10px 50px;
-	margin: 0px 50px 20px;
-}
-
-.flex-box{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	align-items: center;
-	flex-shrink: 1;
-	width: 800px;
-	padding: 0 auto;
-	margin: 0;
-}
-
-.icon-container{
-	padding: 35px 40px 20px;
-}
-
-.icon{
-	justify-content: center;
-	background-color: rgba(49, 123, 34, 1);
-	height:	250px;
-	width: 250px;
-	border-radius: 25px;
-	background-size: 75%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.icon:hover{
-	opacity: 50%;
-}
-
-.icon-container p{
-	text-align: center;
-	font-size: 40px;
-	margin: 10px 10px 0px;
-	padding: 0;
-	border-width: 0;
-	font-family: Permanent Marker;
-}
-
-.icon.recipes{
-	background-image: url("/fugu/00_sitePics/Icon_Recipe.png");
-}
-
-.icon.gallery{
-	background-image: url("/fugu/00_sitePics/Icon_Gallery.png");
-}
-
-.icon.meallog{
-	background-image: url("/fugu/00_sitePics/Icon_Log.png");
-}
-
-.icon.restaurants{
-	background-image: url("/fugu/00_sitePics/Icon_Restaurant.png");
-}
-
-.icon a{
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 250px;
-	width: 250px;
- 	border-radius: 25px;
-	color: transparent;
-}
-
-.page-title{
-	margin:0 50px;
-	padding: 0;
-	background-color: rgba(255,255,255,0.9);
-}
-
-/*Nav bar
-__________________________________________________*/
-
-
-.header{
-	height: 175px;
-	margin: 0;
-}
-
 
 .logo a{
 	display: block;
@@ -216,119 +97,185 @@ __________________________________________________*/
 	color: transparent;
 }
 
+.header-stripe{
+	border-top: 5px solid rgba(42, 77, 20, 1);
+	border-bottom: 5px solid rgba(42, 77, 20, 1);
+	position: relative;
+	height: 30px;
+	top: -100px;
+	z-index: 3;
+}
 
-.navbar-container{
-	padding: 0 20px;
+
+/*Page title*/
+/*__________________________________________________*/
+
+.page-title{
+	background-color: rgba(255,255,255,0.9);
+	margin:0;
+	padding: 0;
+}
+
+h1#index {
+	font-family: Permanent Marker;
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+
+/*Landing page*/
+/*__________________________________________________*/
+
+.flex-container-L1{
+	background-color: rgba(255,255,255,0.9);
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-shrink: 1;
+}
+
+.flex-container-L2{
 	display: flex;
 	justify-content: center;
-	margin: 0;
 	flex-wrap: wrap;
+	align-items: center;
+	flex-shrink: 1;
 }
 
-.navbar-icon{
-	background-color: rgba(49, 123, 34, 1);
-	margin: 20px 20px;
-	flex: 0 0 150px;
-	border-radius: 20px;
+.icon{
+	border-radius: 25px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.navbar-icon a{
+.icon-container.index{
+	padding: 25px 30px;
+	width: 400px;
+}
+
+.icon:hover{
+	opacity: 50%;
+}
+
+.icon.index{
+	height:	225px;
+	width: 225px;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.icon.recipes{
+	background-image: url("../00_sitePics/Icon_Recipe.png");
+}
+
+.icon.gallery{
+	background-image: url("../00_sitePics/Icon_Gallery.png");
+}
+
+.icon.meallog{
+	background-image: url("../00_sitePics/Icon_Log.png");
+}
+
+.icon.restaurants{
+	background-image: url("../00_sitePics/Icon_Restaurant.png");
+}
+
+.icon-container.index p{
+	text-align: center;
+	font-size: 50px;
+	margin: 10px auto;
+	padding: 0;
+	font-family: Permanent Marker;
+}
+
+.icon.index a{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+	line-height: 225px;
+	width: 225px;
  	border-radius: 25px;
 	color: transparent;
-	height: 150px;
+}
+
+
+/*Nav bar
+__________________________________________________*/
+
+.icon-container.navbar{
+	padding: 25px 5px 0px;
+	width: 200px;
+}
+
+.icon.navbar{
+	height:	150px;
 	width: 150px;
+	border-radius: 25px;
+	margin: 0 auto;
 }
 
-.navbar{
-	height: 150px;
-	background-size: 75%;
-	background-position: 50% 25%;
-	background-repeat: no-repeat;
-	padding: 0;
-	margin: 0;
-}
-
-.navbar.recipes{
-	background-image: url("/fugu/00_sitePics/Icon_Recipe.png");
-}
-
-.navbar.gallery{
-	background-image: url("/fugu/00_sitePics/Icon_Gallery.png");
-}
-
-.navbar.meallog{
-	background-image: url("/fugu/00_sitePics/Icon_Log.png");
-}
-
-.navbar.restaurants{
-	background-image: url("/fugu/00_sitePics/Icon_Restaurant.png");
-}
-
-.navbar-icon p{
+.icon.navbar a{
+	display: inline-block;
 	text-align: center;
-	position: relative;
-	margin: 0;
-	color: white;
-	bottom: 30px;
+	vertical-align: middle;
+	line-height: 150px;
+	width: 150px;
+ 	border-radius: 25px;
+	color: transparent;
 }
 
-.navbar-icon:hover{
-	opacity: 50%;
+.icon-container.navbar p{
+	text-align: center;
+	font-size: 18px;
+	margin: 10px 5px;
+	padding: 0;
 }
+
+
+/*PAGE CONTENT*/
+/*__________________________________________________*/
 
 
 /*Recipe list
 __________________________________________________*/
 
-.flex-recipe{
-	margin: 0px 50px;
-	display: flex;
-	align-items: stretch;
-	background-color: rgba(255,255,255,0.9);
-}
-
-.recipe-menu{
-	font-size: 30px;
-	flex: 0 0 300px;
-	padding: 20px;
-	border: 5px solid rgba(49, 123, 34, 1);
-	margin: 10px;
-}
-
-
 .recipe-list{
-	font-size: 30px;
-	width: 1200px;
-	padding: 20px 50px;
-	border: 5px solid rgba(49, 123, 34, 1);
-	flex: 1 1 1300px;
-	margin: 10px;
+	background-color: rgba(255,255,255,0.9);
+	margin: 0;
+	padding: 0 50px 50px;
 }
-
 
 .recipe-container{
-	margin: 0 0 10px;
+	margin: 0 0 25px;
 	padding: 0;
 }
 
+.recipe-container h2{
+	font-size: 28px;
+	border-bottom: 2px solid green;
+	text-align: left;
+	margin: 0;
+	padding: 0 0 10px;
+}
 
-.flex-recipe a{
+.recipe-container a{
+	color: black;
 	font-size: 20px;
 	text-decoration: none;
 	display: block;
 	line-height: 40px;
 }
 
-.flex-recipe li{
+.recipe-container li{
 	padding: 0px 10px;
-	margin: 20px 0;
+	margin: 0px 0px 25px;
 }
 
-
-.flex-recipe li:hover{
+.recipe-container li:hover{
 	background-color: rgba(255, 233, 0, 1);
 }
 
@@ -337,13 +284,17 @@ __________________________________________________*/
 __________________________________________________*/
 
 .ingredients, .method, .source{
-	margin: 0 50px;
-	padding: 0 50px;
+	margin: 0;
+	padding: 12.5px 50px;
 	background-color: rgba(255,255,255,0.9);
 }
 
 .ingredients ul{
-	padding: 20px;
+	padding: 0px 20px;
+}
+
+.method ol{
+	padding: 0px 20px;
 }
 
 .ingredients li, .method li{
@@ -355,14 +306,30 @@ __________________________________________________*/
 	list-style: initial;
 }
 
-.method ol{
-	padding: 20px;
+.source p, .source a{
+	margin:10px 20px;
 }
 
-.source{
-	height: 200px;
-}
 
-.source p{
-	margin: 20px 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
