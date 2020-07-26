@@ -11,7 +11,7 @@ $cornflower-blue: rgba(116, 148, 234, 1);*/
 html{
 	box-sizing: border-box;
 	overflow-y: scroll;
-	-webkit‑text‑size‑adjust: 100%
+	-webkit-text‑size‑adjust: 100%;
 }
 
 *,*:before, *:after{
