@@ -24,7 +24,7 @@ body {
   background-image: url("../00_sitePics/Background_tile.jpg");
   background-size: 600px;
   background-repeat: repeat;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 h1{
@@ -305,6 +305,7 @@ __________________________________________________*/
 @media only screen and (max-width: 600px){
 	.ingredients li, .method li{
 		font-size: 30px;
+	}
 }
 
 .ingredients li{
