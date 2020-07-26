@@ -307,7 +307,7 @@ __________________________________________________*/
 	list-style: initial;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
 	.ingredients li, .method li{
 		font-size: 30px;
 	}
