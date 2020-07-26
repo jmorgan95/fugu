@@ -11,6 +11,7 @@ $cornflower-blue: rgba(116, 148, 234, 1);*/
 html{
 	box-sizing: border-box;
 	overflow-y: scroll;
+	-webkit‑text‑size‑adjust: 100%
 }
 
 *,*:before, *:after{
@@ -302,16 +303,15 @@ __________________________________________________*/
 	font-size: 16px;
 }
 
+.ingredients li{
+	list-style: initial;
+}
+
 @media only screen and (max-width: 600px){
 	.ingredients li, .method li{
 		font-size: 30px;
 	}
 }
-
-.ingredients li{
-	list-style: initial;
-}
-
 .source p, .source a{
 	margin:10px 20px;
 }
